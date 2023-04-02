@@ -1,0 +1,205 @@
+.homeWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoName {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.homePageWrapper {
+    background: #0F111A;
+    display: flex;
+    height: 65vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.mainheading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.subheading {
+    font-size: 1.4rem;
+    font-weight: 50;
+    line-height: 1.5;
+    max-width: 90%;
+}
+
+.homePageBtn {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 3rem;
+}
+
+.freeCode {
+    margin-top: 2rem;
+}
+
+.homePageWrapper2 {
+    background: linear-gradient(#0f111a, #4d76ba);
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.options {
+    padding:0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.optionsHeading {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.optionsSubHeading {
+    font-size: 1rem;
+}
+
+.optionsButton {
+    font-size: 15px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.optionsButton:hover {
+    color: #4d76ba;
+    background: #fff;
+}
+
+
+.footer {
+    background-color: #0F111A;
+    color: #a7a5a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.githubLink {
+    color: #a7a5a5;
+    margin-left: 5px;
+    max-width: 90%;
+}
+
+.githubLink:hover {
+    color: #3f3f40;
+}
+
+
+@media (max-width: 992px) {
+    .logoName {
+        font-size: 1.8rem;
+    }
+
+    .homePageWrapper {
+        height: 50vh;
+        padding: 0 2px;
+        padding-top: 3rem;
+    }
+    
+    .mainheading {
+        font-size: 2.5rem;
+        width: 98%;
+    }
+    
+    .subheading {
+        font-size: 1.2rem;
+        width: 98%;
+    }
+    
+    .homePageBtn {
+        font-size: 18px;
+    }
+
+    .homePageWrapper2 {
+        flex-direction: column;
+        height: 70vh;
+        padding: 60px 20px;
+        gap:3rem;
+    }
+
+    .footer {
+        text-align: center;
+        height: 15vh;
+        font-size: 1.1rem;
+    }
+
+} 
+
+
+
+@media (max-width: 600px) {
+    .homePageWrapper {
+        height: 40vh;
+        padding-top: 4rem;
+    }
+    
+    .mainheading {
+        font-size: 2rem;
+        width: 98%;
+    }
+    
+    .subheading {
+        font-size: 1rem;
+    }
+    
+    .homePageBtn {
+        width: 180px;
+    }
+
+    .homePageWrapper2 {
+        height: 100vh;
+        padding: 60px 0px;
+    }
+    
+    .optionsHeading {
+        font-size: 1.8rem;
+    }
+    
+    .optionsButton {
+        width: 50%;
+    }
+
+    .footer {
+        text-align: center;
+        height: 25vh;
+        font-size: 1rem;
+    }
+    
+} 
+
+@media (max-width: 486px){
+    .homePageWrapper{
+        height: 60vh;
+    }
+
+    .homePageWrapper2 {
+        padding: 100px 0px;
+    }
+}

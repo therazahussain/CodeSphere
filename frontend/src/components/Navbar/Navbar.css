@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  background-color: #0F111A;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navEditor {
+  padding: 7px 15px 7px 7px;
+}
+
+.dropdown-container {
+  width: 115px;
+}
+
+.logoEditor {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.navLogo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.navOptions {
+  display: flex;
+  gap: 1rem;
+  font-size: 14px;
+}
+
+.optionButton {
+  width: 50px;
+  padding: 4px;
+  font-size: 20px;
+}
+
+.bottom-options {
+  padding: 10px;
+}
+
+.runBtn {
+  background: #6760f6;
+  color: #fff;
+  width: 80px;
+  cursor: pointer;
+}
+
+.waitBtn {
+  background: #757391;
+  width: 80px;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.runBtn:hover {
+  background: #544eca;
+}
+
+.toggle-btn {
+  height: 40px;
+  cursor: pointer;
+}

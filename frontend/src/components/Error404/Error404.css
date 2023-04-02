@@ -1,0 +1,30 @@
+.errorPage-container{
+    background: #fff;
+    height: calc(90vh - 73px);
+    display: flex;
+    text-align: center;
+    color: #000;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.error-subHeading{
+    font-size:18px;
+}
+
+h1{
+    font-size:48px;
+}
+
+.homeLink{
+    color: #6760f6;
+    font-weight: bold;
+    border-bottom: 1px solid #6760f6;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.homeLink:hover{
+    border-bottom: none;
+}

@@ -1,0 +1,48 @@
+.homePageLogo {
+  height: 40px;
+  margin-top: 3px;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn{
+  background: #6760f6;
+  color: #eee;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover {
+  background: #4a40fe;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 90px;
+}
+
+.formLogo {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #9e9e9f61;
+}

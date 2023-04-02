@@ -1,0 +1,60 @@
+.formPageWrapper {
+    background: linear-gradient(#0F111A, #3b5d91);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 73px);
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+    color: #fff;
+}
+
+.formWrapper {
+    background: #203350;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainLabel {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.formPageLogo {
+    height: 7rem;
+}
+
+.inputBox {
+    padding: 0.7rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.createInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.createBtn {
+    color: #6760f6;
+    text-decoration: none;
+    border-bottom: 1px solid #6760f6;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.createBtn:hover {
+    color: #4a40fe;
+    border-bottom: 1px solid #4a40fe;
+}
