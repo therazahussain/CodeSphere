@@ -87,7 +87,7 @@ const Editor = () => {
       function handleErrors(e) {
         console.log('socket error', e);
         toast.error('Socket connection failed, try again later.');
-        reactNavigator('/');
+        reactNavigator('/form');
       }
 
       socketRef.current.emit(ACTIONS.JOIN, {
